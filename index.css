@@ -1,0 +1,68 @@
+.container {
+  margin-top: 5%;
+  background-color: rgb(216, 244, 255);
+  border-radius: 5px;
+}
+
+.leftSide {
+  max-width: 70%;
+  padding: 5% 0 5% 5%;
+  float: left;
+}
+
+.purple {
+  width: 70%;
+  background-color: rgb(105, 51, 155);
+  font-size: 14px;
+  float: left;
+  border-radius: 7px;
+  background-image: url(/testimonials-grid-section-main/images/bg-pattern-quotation.svg);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+}
+
+.customer_image {
+  border: 2px solid rgba(219, 39, 219, 0.678);
+  border-radius: 50%;
+  float: left;
+}
+
+.customer_img_name {
+  display: flex;
+  align-items: center;
+}
+
+.customer_name {
+  margin-left: 2%;
+}
+
+.gray {
+  float: right;
+  background-color: gray;
+}
+
+.gray_container,
+.purple_container {
+  margin: 5%;
+}
+
+.customer_name,
+.customer_big_comment {
+  color: white;
+  font-weight: 400;
+}
+
+.customer_graduation,
+.customer_small_comment {
+  color: rgb(207, 207, 207);
+  font-weight: 400;
+  font-size: 13px;
+  padding-top: 2%;
+}
+
+.rightSide {
+  max-width: 25%;
+  padding: 5% 5% 0 5%;
+  float: right;
+}
