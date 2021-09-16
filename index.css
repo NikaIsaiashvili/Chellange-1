@@ -1,3 +1,7 @@
+/*-------------------------------------------*/
+/*--------------PURPLE CONTAINER-----------*/
+/*-------------------------------------------*/
+
 .container {
   margin-top: 5%;
   background-color: rgb(216, 244, 255);
@@ -11,7 +15,7 @@
 }
 
 .purple {
-  width: 70%;
+  width: 60%;
   background-color: rgb(105, 51, 155);
   font-size: 14px;
   float: left;
@@ -21,48 +25,122 @@
   background-repeat: no-repeat;
   background-position-x: 80%;
 }
-
 .customer_image {
   border: 2px solid rgba(219, 39, 219, 0.678);
   border-radius: 50%;
   float: left;
 }
-
 .customer_img_name {
   display: flex;
   align-items: center;
 }
-
 .customer_name {
   margin-left: 2%;
 }
 
-.gray {
-  float: right;
-  background-color: gray;
-}
-
-.gray_container,
 .purple_container {
   margin: 5%;
 }
 
+/*-------------------------------------------*/
+/*------------REUSABLE COMPONENTS------------*/
+/*-------------------------------------------*/
+.white_customer_name,
+.white_customer_big_comment,
+.gray_customer_name,
+.gray_customer_big_comment,
 .customer_name,
 .customer_big_comment {
   color: white;
   font-weight: 400;
 }
 
+.white_customer_graduation,
+.white_customer_small_comment,
+.gray_customer_graduation,
+.gray_customer_small_comment,
 .customer_graduation,
 .customer_small_comment {
   color: rgb(207, 207, 207);
   font-weight: 400;
-  font-size: 13px;
+  font-size: 11px;
   padding-top: 2%;
 }
-
+/*--------------RIGHT SIDE---------------*/
 .rightSide {
   max-width: 25%;
   padding: 5% 5% 0 5%;
   float: right;
+}
+
+/*-------------------------------------------*/
+/*-------------GRAY_CONTAINER-------------*/
+/*-------------------------------------------*/
+
+.white,
+.gray {
+  width: 30%;
+  float: right;
+  font-size: 14px;
+  border-radius: 7px;
+  background-color: #5e5966;
+}
+
+.white_container,
+.gray_container {
+  margin: 10%;
+}
+
+.white_customer_image,
+.gray_customer_image {
+  float: left;
+  border-radius: 50%;
+}
+
+.white_customer_img_name,
+.gray_customer_img_name {
+  display: flex;
+  align-items: center;
+}
+
+.white_customer_name,
+.gray_customer_name {
+  margin-left: 4%;
+}
+
+.white_customer_big_comment,
+.white_customer_small_comment,
+.gray_customer_big_comment,
+.gray_customer_small_comment {
+  margin-top: 4%;
+}
+
+/*-------------------------------------------*/
+/*-------------WHITE_CONTAINER-------------*/
+/*-------------------------------------------*/
+
+.white {
+  float: left;
+  background-color: rgb(255, 255, 255);
+}
+
+.white_customer_graduation,
+.white_customer_small_comment {
+  color: rgb(146, 143, 143);
+}
+
+.white_customer_name,
+.white_customer_big_comment {
+  color: #5e5966;
+}
+
+/*-------------------------------------------*/
+/*-------------BLACK_CONTAINER-------------*/
+/*-------------------------------------------*/
+
+.black {
+  float: right;
+  width: 60%;
+  background-color: rgb(43, 23, 23);
+  border-radius: 7px;
 }
