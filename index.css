@@ -1,6 +1,6 @@
 /*-------------------------------------------*/
 /*--------------PURPLE CONTAINER-----------*/
-/*-------------------------------------------*/
+/*-----------REUSABLE FOR BLACK CONTAINER----------*/
 
 .container {
   margin-top: 5%;
@@ -14,8 +14,9 @@
   float: left;
 }
 
+.black,
 .purple {
-  width: 60%;
+  width: 65%;
   background-color: rgb(105, 51, 155);
   font-size: 14px;
   float: left;
@@ -25,19 +26,26 @@
   background-repeat: no-repeat;
   background-position-x: 80%;
 }
+
+.black_customer_image,
 .customer_image {
   border: 2px solid rgba(219, 39, 219, 0.678);
   border-radius: 50%;
   float: left;
 }
+
+.black_customer_img_name,
 .customer_img_name {
   display: flex;
   align-items: center;
 }
+
+.black_customer_name,
 .customer_name {
   margin-left: 2%;
 }
 
+.black_container,
 .purple_container {
   margin: 5%;
 }
@@ -45,6 +53,9 @@
 /*-------------------------------------------*/
 /*------------REUSABLE COMPONENTS------------*/
 /*-------------------------------------------*/
+
+.black_customer_name,
+.black_customer_big_comment,
 .white_customer_name,
 .white_customer_big_comment,
 .gray_customer_name,
@@ -54,7 +65,8 @@
   color: white;
   font-weight: 400;
 }
-
+.black_customer_graduation,
+.black_customer_small_comment,
 .white_customer_graduation,
 .white_customer_small_comment,
 .gray_customer_graduation,
@@ -75,11 +87,11 @@
 
 /*-------------------------------------------*/
 /*-------------GRAY_CONTAINER-------------*/
-/*-------------------------------------------*/
+/*---------REUSABLE FOR WHITE CONTAINER----------*/
 
 .white,
 .gray {
-  width: 30%;
+  width: 29%;
   float: right;
   font-size: 14px;
   border-radius: 7px;
@@ -88,7 +100,7 @@
 
 .white_container,
 .gray_container {
-  margin: 10%;
+  margin: 13% 10% 10% 10%;
 }
 
 .white_customer_image,
@@ -140,7 +152,6 @@
 
 .black {
   float: right;
-  width: 60%;
   background-color: rgb(43, 23, 23);
-  border-radius: 7px;
+  background-image: none;
 }
